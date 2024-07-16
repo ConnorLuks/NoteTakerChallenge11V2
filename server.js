@@ -6,14 +6,14 @@ const uniqid = require('uniqid');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Middleware to parse JSON and urlencoded data
+// Middleware to parse the JSON and the urlencoded data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Serve static files from the source directory
+// Access for static files from the source directory
 app.use(express.static(path.join(__dirname, 'source')));
 
-// API route to get notes
+// API route to get created notes
 app.get('/api/notes', (req, res) => {
     fs.readFile(path.join(__dirname, 'db', 'db.json'), 'utf8', (err, data) => {
         if (err) {
@@ -69,12 +69,12 @@ app.delete('/api/notes/:id', (req, res) => {
     });
 });
 
-// Route to serve notes.html
+// Route to notes.html
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, 'source', 'notes.html'));
 });
 
-// Fallback route for handling all other requests
+// Route to index.html
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'source', 'index.html'));
 });
