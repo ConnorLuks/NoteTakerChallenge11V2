@@ -14,7 +14,7 @@ An Online Note Taker.
 A simple Render deployed Note Taker application for adding, saving, and deleting notes.
 
 # Installation
-Requires NPM Express, and NPM Uniqid, if using directly within Node if you want to make any edits or additions to the code, however for just usage simply follow the Render link below.
+Requires NPM Express, and NPM Uniqid, if using directly within Node if you want to make any edits or additions to the code. However, for just on site usage simply follow the Render link below.
 
 # How to use
 - 1: Click the deployed Render link below which will take you to the website.
