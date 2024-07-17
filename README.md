@@ -4,7 +4,7 @@ An Online Note Taker.
 # Table of Contents
 - [Introduction and Usage](#introduction_and_usage)
 - [Installation](#installation)
-- [How to use](#how to use)
+- [How to use](#how_to_use)
 - [Links](#links)
 - [Photos](#photos)
 - [License](#license)
