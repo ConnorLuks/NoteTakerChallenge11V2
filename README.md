@@ -2,13 +2,13 @@
 An Online Note Taker.
 
 # Table of Contents
-- Introduction and Usage (#introduction and usage)
-- Installation (#installation)
-- How to use (#how to use)
-- Links (#links)
-- Photos (#photos)
-- License (#license)
-- Credits (#credits)
+- [Introduction and Usage](#introduction_and_usage)
+- [Installation](#installation)
+- [How to use](#how to use)
+- [Links](#links)
+- [Photos](#photos)
+- [License](#license)
+- [Credits](#credits)
 
 # Introduction and Usage
 A simple Render deployed Note Taker application for adding, saving, and deleting notes.
